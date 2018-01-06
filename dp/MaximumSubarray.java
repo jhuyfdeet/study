@@ -2,7 +2,6 @@ class Solution
 {
     public int maxSubArray(int[] nums) 
     {
- 
         int a = nums[0], b = 0, max = nums[0];
         for (int i = 1; i < nums.length; i++)
         {
